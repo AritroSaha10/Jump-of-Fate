@@ -1,5 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
+/*
+ * Authors: Edison 
+ */
 using UnityEngine;
 
 /// <summary>
@@ -65,3 +66,7 @@ public class EnemyShooting : MonoBehaviour
     }
 
 }
+
+// Source: https://www.youtube.com/watch?v=--u20SaCCow&ab_channel=MoreBBlakeyyy
+// Parts of the code were inspired from that video
+// Changes were made in order to fit the features of this game

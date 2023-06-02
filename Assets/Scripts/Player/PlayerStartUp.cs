@@ -1,7 +1,7 @@
-﻿using UnityEngine;
-
-// TODO: 
-// Optimize, currently will run forever, needed due to level loading reseting the player
+﻿/*
+ * Authors: Tony 
+ */
+using UnityEngine;
 
 namespace Assets.Scripts.Player
 {
@@ -29,3 +29,6 @@ namespace Assets.Scripts.Player
         }
     }
 }
+
+// Citations:
+// “Unity documentation,” Unity Documentation, https://docs.unity.com/ 

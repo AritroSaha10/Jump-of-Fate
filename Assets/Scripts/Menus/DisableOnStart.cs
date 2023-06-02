@@ -1,5 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
+/*
+ * Authors: Tony 
+ */
 using UnityEngine;
 
 /// <summary>
@@ -13,3 +14,6 @@ public class DisableOnStart : MonoBehaviour
         transform.gameObject.SetActive(false);
     }
 }
+
+// Citations: 
+// “Unity documentation,” Unity Documentation, https://docs.unity.com/ 

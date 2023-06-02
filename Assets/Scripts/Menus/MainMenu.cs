@@ -1,5 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
+/*
+ * Authors: Edison 
+ */
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -74,3 +75,6 @@ namespace Assets.Scripts.Menu
     }
 
 }
+
+// Source Used: https://youtu.be/-GWjA6dixV4
+// The video was a tutorial on menus, and helped guide the construction of the main menu

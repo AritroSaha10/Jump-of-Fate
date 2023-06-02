@@ -1,5 +1,7 @@
-﻿using UnityEngine;
-using Assets.Scripts.Menu;
+﻿/*
+ * Authors: Tony 
+ */
+using UnityEngine;
 
 namespace Assets.Scripts.Menus
 {
@@ -37,3 +39,6 @@ namespace Assets.Scripts.Menus
         }
     }
 }
+
+// Citations: 
+// “Unity documentation,” Unity Documentation, https://docs.unity.com/ 

@@ -1,3 +1,6 @@
+/*
+ * Authors: Tony 
+ */
 using UnityEngine;
 
 namespace Assets.Scripts.Player
@@ -237,3 +240,9 @@ namespace Assets.Scripts.Player
         }
     }
 }
+
+// Citations:
+// Bendux, “2D player movement in Unity,” YouTube, https://www.youtube.com/watch?v=K1xZ-rycYY8
+// Dawnosaur, “Improve your platformer with forces | examples in unity,” YouTube, https://www.youtube.com/watch?v=KbtcEVCM7bw
+// gamesplusjames, “5 tips for better platformers in Unity (with code)!,” YouTube, https://www.youtube.com/watch?v=8QPmhDYn6rk 
+// “Unity documentation,” Unity Documentation, https://docs.unity.com/ 

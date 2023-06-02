@@ -1,5 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
+/*
+ * Authors: Tony 
+ */
 using UnityEngine;
 
 /// <summary>
@@ -20,3 +21,6 @@ public class FinishText : MonoBehaviour
         finishText.SetActive(true);
     }
 }
+
+// Citations: 
+// “Unity documentation,” Unity Documentation, https://docs.unity.com/ 

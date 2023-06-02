@@ -1,3 +1,6 @@
+/*
+ * Authors: Edison and Tony
+ */
 using UnityEngine;
 using TMPro;
 
@@ -52,4 +55,6 @@ public class Scores : MonoBehaviour
         scoreText.text = "Score: " + Mathf.Round(score).ToString() + "\n" + "Highscore: " + Mathf.Round(highscore).ToString();
     }
 }
-    
+
+// Citations:
+// “Unity documentation,” Unity Documentation, https://docs.unity.com/ 

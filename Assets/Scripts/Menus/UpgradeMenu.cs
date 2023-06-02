@@ -1,9 +1,7 @@
-using System.Collections;
-using System.Collections.Generic;
+/*
+ * Authors: Tony 
+ */
 using UnityEngine;
-using Assets.Scripts.Player;
-
-
 
 namespace Assets.Scripts.Menus {
     /// <summary>
@@ -61,3 +59,5 @@ namespace Assets.Scripts.Menus {
     }
 }
 
+// Citations: 
+// “Unity documentation,” Unity Documentation, https://docs.unity.com/ 

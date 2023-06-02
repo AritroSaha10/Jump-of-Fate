@@ -1,7 +1,8 @@
-﻿using UnityEngine;
+﻿/*
+ * Authors: Tony 
+ */
 
-// TODO: 
-// Optimize, currently will run forever, needed due to level loading reseting the player
+using UnityEngine;
 
 namespace Assets.Scripts.Camera
 {
@@ -42,3 +43,7 @@ namespace Assets.Scripts.Camera
         }
     }
 }
+
+// Citations:
+// “Unity documentation,” Unity Documentation, https://docs.unity.com/ 
+// L. Long, “How to find a gameobject by tag?,” Unity Forum, https://forum.unity.com/threads/how-to-find-a-gameobject-by-tag.172188/. 

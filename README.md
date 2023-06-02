@@ -4,7 +4,7 @@ A unity platforming game, featuring ugprades and differing levels. Made by Ediso
 ### Playing 
 #### Releases
 1. [Download](https://github.com/justapotato213/Jump-of-Fate/releases/latest) the corresponding version for your computer. 
-2. Unzip the file, and run the executable. 
+2. Unzip the file, and run the executable (JOFv1.0.0).
 #### Building
 If you would like to build it on your computer, follow these steps:
 1. Download and install both [Unity Hub](https://unity.com/download) and Unity (version: 2021.3.21f1).
@@ -26,7 +26,9 @@ If you would like to build it on your computer, follow these steps:
 #### Level Generator
 1. Follow steps 1-4 in [playing](https://github.com/justapotato213/Jump-of-Fate/edit/main/README.md#playing). 
 2. Open [LevelGenerator/imageGenerator.py](LevelGenerator/imageGenerator.py).
-3. Edit the code (imageGenerator.py) using an IDE of your choice. 
+3. Edit the code in the file using an IDE of your choice. 
+4. Add slices in the form of .jpg images inside [Input_Images](LevelGenerator/Input_Images) folder.
+5. Once you run the Python script, generated levels will be saved in the [Levels](LevelGenerator/Levels) folder.
 ## Notes
 ### Game
 - The level generation is handled by the WorldGen.cs file. 
@@ -40,4 +42,9 @@ If you would like to build it on your computer, follow these steps:
   - This is simply stored as a JSON format.
 - There are two scenes, MainMenu and SampleScene, where the MainMenu is the beginning menu, and SampleScene is the main game itself. 
 ### Level Generator
-
+- [imageGenerator.py](LevelGenerator/imageGenerator.py) is the Python file used to generate the levels
+  - Note: In order to run this file, you will need to have the [PILLOW](https://pillow.readthedocs.io/en/stable/installation.html) library installed in Python. 
+  - It works by randomly combining the slices (images) horizontally and adds the start and the end to each level.
+  - Once these images are saved in [Levels](LevelGenerator/Level), you can transfer them into [Assets/Resources/Level](Assets/Resources/Level) and they will be playable.
+## Documentation
+- The main user manual is found in this [Doc](https://docs.google.com/document/d/1-vpKEELPpJwfev-XjtRFNolClUb9Pxli4TilruKsmxs/edit?usp=sharing) which contains all the information needed to play the game
